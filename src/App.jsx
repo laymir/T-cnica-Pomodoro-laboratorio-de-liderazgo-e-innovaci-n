@@ -243,7 +243,10 @@ function AuthScreen() {
       <section className="auth-visual">
         <div className="brand">
           <span className="brand-mark"><GraduationCap size={22} /></span>
-          pomodoro<span>ux</span>
+          <div className="brand-text">
+            <span className="brand-main">Técnica Pomodoro</span>
+            <span className="brand-sub">Laboratorio de liderazgo e innovación</span>
+          </div>
         </div>
         <div className="auth-hero">
           <span className="eyebrow"><Sparkles size={15} /> ESTUDIA CON INTENCIÓN</span>
@@ -265,7 +268,10 @@ function AuthScreen() {
         <div className="auth-card">
           <div className="mobile-brand brand">
             <span className="brand-mark"><GraduationCap size={22} /></span>
-            pomodoro<span>ux</span>
+            <div className="brand-text">
+              <span className="brand-main">Técnica Pomodoro</span>
+              <span className="brand-sub">Laboratorio de liderazgo e innovación</span>
+            </div>
           </div>
           <span className="eyebrow">TU ESPACIO DE CONCENTRACIÓN</span>
           <h2>{mode === 'login' ? 'Qué bueno verte.' : 'Crea tu cuenta.'}</h2>
@@ -858,7 +864,10 @@ function Dashboard({ session }) {
       <aside className={`sidebar ${menuOpen ? 'open' : ''}`}>
         <div className="brand">
           <span className="brand-mark"><GraduationCap size={22} /></span>
-          pomodoro<span>ux</span>
+          <div className="brand-text">
+            <span className="brand-main">Técnica Pomodoro</span>
+            <span className="brand-sub">Laboratorio de liderazgo e innovación</span>
+          </div>
         </div>
 
         <div className="side-label">TU ESPACIO</div>
@@ -1675,7 +1684,7 @@ function Dashboard({ session }) {
         )}
 
         <footer className="app-footer">
-          <span>pomodoro<span className="footer-accent">ux</span> · Más enfoque, menos estrés, mejores resultados.</span>
+          <span>Técnica Pomodoro · Laboratorio de liderazgo e innovación</span>
           <span>Diego y Valeria · Pequeños pasos, grandes avances.</span>
         </footer>
       </main>
